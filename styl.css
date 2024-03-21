@@ -6,7 +6,7 @@
 }
 .bg-image{
     background:rgba(0,0,0,0.7) url(./photos/h3-gallery-2.jpg) ;
-    height: 100vh;
+    height: 120vh;
    background-repeat: no-repeat;
    background-position:center;
    background-attachment: fixed;
@@ -24,8 +24,9 @@
      transform: translate(-50%, -50%);
 }
 .fonttxt{
-    font-size: 100px;
-    
+    position: relative;
+    margin-bottom: -20px;
+    font-size: 100px; 
 }
 .txtp{
     color: white;
@@ -35,6 +36,7 @@
 }
 .and{
     font-size: 30px;
+    padding-top: 20px;
 }
 
 
@@ -181,6 +183,14 @@ button {
     footer {
       padding-top: 50px;
     }
-
+    .txt{
+        color: white;
+        text-align: center;
+        font-family: "Oooh Baby", cursive;
+        position: absolute;
+         top: 50%;
+         left: 50%;
+         transform: translate(-50%, -50%);
+    }
   }
   
