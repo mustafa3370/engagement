@@ -6,7 +6,7 @@
 }
 .bg-image{
     background:rgba(0,0,0,0.7) url(./photos/h3-gallery-2.jpg) ;
-    height: 120vh;
+    height: 100vh;
    background-repeat: no-repeat;
    background-position:center;
    background-attachment: fixed;
@@ -166,11 +166,6 @@ button {
       transform: rotate(0);
     }
   }
-
-  footer {
-    padding-top: 20px;
-  }
-  
   footer .copy {
     margin-top: 30px;
     font-size: 14px;
@@ -180,9 +175,6 @@ button {
   }
   
   @media (max-width: 576px) {
-    footer {
-      padding-top: 50px;
-    }
     .txt{
         color: white;
         text-align: center;
